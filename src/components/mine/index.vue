@@ -7,18 +7,18 @@
       <div class="card-header">
         <img src="http://xurenjie.cn:3000/resume/xurenjie.JPG" alt="" class="header__avatar">
       </div>
-      <h2 class="name">徐人杰</h2>
+      <h2 class="name">JackLiu(LG)</h2>
       <div class="desc">
-        <p class="tel">电话：15279102530</p>
-        <p class="mail">mail：2578370399@qq.com</p>
-        <p class="gmail">gmail：renjiexu96.gmail.com</p>
+        <p class="tel">电话：15726629878</p>
+        <p class="mail">mail：logo123456@foxmail.com</p>
+        <p class="gmail">gmail：logeek8@gmail.com</p>
       </div>
       <div class="link-group">
-        <a href="https://github.com/renjie1996" class="github">
+        <a href="https://github.com/jackliu946" class="github">
           <img v-lazy="github" alt="">
         </a>
-        <a href="http://xurenjie.cn:3000/resume/xurenjie_resume.html" class="resume">
-          我的简历
+        <a href="http://logeek.info/" class="resume">
+          个人网站
         </a>
       </div>
     </section>
@@ -29,7 +29,7 @@
 export default {
   data () {
     return {
-      avatar: 'http://xurenjie.cn:3000/resume/xurenjie.JPG',
+      avatar: 'https://avatars3.githubusercontent.com/u/25115923?v=3&s=460',
       github: 'http://xurenjie.cn:3000/resume/github.png'
     }
   }
